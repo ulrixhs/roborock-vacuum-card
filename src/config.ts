@@ -21,17 +21,17 @@ export default function buildConfig(
   const default_modes = {
     [RoborockCleaningMode.VacAndMop]: {
       suction: RoborockSuctionMode.Balanced,
-      mop: RoborockMopMode.Medium,
+      mop: RoborockMopMode.Moderate,
       route: RoborockRouteMode.Standard,
     },
     [RoborockCleaningMode.Mop]: {
       suction: RoborockSuctionMode.Balanced,
-      mop: RoborockMopMode.Medium,
+      mop: RoborockMopMode.Moderate,
       route: RoborockRouteMode.Deep,
     },
     [RoborockCleaningMode.Vac]: {
       suction: RoborockSuctionMode.Turbo,
-      mop: RoborockMopMode.Medium,
+      mop: RoborockMopMode.Moderate,
       route: RoborockRouteMode.Standard,
     },
   };
